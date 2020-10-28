@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import './App.styles.ts';
 import QuestionCard from './components/QuestionCard';
 import {fetchQuestions, Difficulty, QuestionState} from './API'
 import {GlobalStyle, Wrapper} from './App.styles';
