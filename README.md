@@ -1,4 +1,11 @@
 # Quiz App
 
-`npm i styled-components @types/styled-components`
+## Installation
+
+```bash
+npm install
+npm start
+```
+
+
 
