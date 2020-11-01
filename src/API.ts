@@ -20,7 +20,7 @@ export type QuestionState = Question & { answers : string[]};
 
 // https://opentdb.com/api.php?amount=10&difficulty=easy&type=multiple
 export const fetchQuestions = async (amount: number, difficulty: Difficulty) => {
-    const endpoint = `http://opentdb.com/api.php?amount=${amount}&difficulty=${difficulty}&type=multiple`;
+    const endpoint = `https://opentdb.com/api.php?amount=${amount}&difficulty=${difficulty}&type=multiple`;
     const data = await (await fetch(endpoint)).json();
     // console.log(data);
     // shuffle the answer util
